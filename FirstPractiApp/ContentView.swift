@@ -13,6 +13,7 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundColor(.red)
             Text("Bienvenido " + userName)
+            Text("Este es otro texto adicional")
             Button("Aceptar")
                 {
                 /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
