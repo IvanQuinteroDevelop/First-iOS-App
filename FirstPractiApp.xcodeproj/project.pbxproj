@@ -11,6 +11,7 @@
 		AFAA154429B948E100BFD492 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAA154329B948E100BFD492 /* ContentView.swift */; };
 		AFAA154629B948E400BFD492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFAA154529B948E400BFD492 /* Assets.xcassets */; };
 		AFAA154A29B948E400BFD492 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFAA154929B948E400BFD492 /* Preview Assets.xcassets */; };
+		AFC30D2529B94ED300F18FF4 /* FirstFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC30D2429B94ED300F18FF4 /* FirstFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		AFAA154529B948E400BFD492 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFAA154729B948E400BFD492 /* FirstPractiApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FirstPractiApp.entitlements; sourceTree = "<group>"; };
 		AFAA154929B948E400BFD492 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AFC30D2429B94ED300F18FF4 /* FirstFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				AFAA154529B948E400BFD492 /* Assets.xcassets */,
 				AFAA154729B948E400BFD492 /* FirstPractiApp.entitlements */,
 				AFAA154829B948E400BFD492 /* Preview Content */,
+				AFC30D2429B94ED300F18FF4 /* FirstFile.swift */,
 			);
 			path = FirstPractiApp;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFC30D2529B94ED300F18FF4 /* FirstFile.swift in Sources */,
 				AFAA154429B948E100BFD492 /* ContentView.swift in Sources */,
 				AFAA154229B948E100BFD492 /* FirstPractiAppApp.swift in Sources */,
 			);
@@ -277,7 +281,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
@@ -313,7 +317,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
