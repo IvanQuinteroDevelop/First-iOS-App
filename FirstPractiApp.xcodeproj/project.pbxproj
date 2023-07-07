@@ -15,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF28524D2A571B65006BD99D /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AFAA153E29B948E100BFD492 /* FirstPractiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstPractiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFAA154129B948E100BFD492 /* FirstPractiAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPractiAppApp.swift; sourceTree = "<group>"; };
 		AFAA154329B948E100BFD492 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +36,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF28524E2A58792D006BD99D /* playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				AF28524D2A571B65006BD99D /* MyPlayground.playground */,
+			);
+			path = playgrounds;
+			sourceTree = "<group>";
+		};
 		AFAA153529B948E100BFD492 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +63,7 @@
 		AFAA154029B948E100BFD492 /* FirstPractiApp */ = {
 			isa = PBXGroup;
 			children = (
+				AF28524E2A58792D006BD99D /* playgrounds */,
 				AFAA154129B948E100BFD492 /* FirstPractiAppApp.swift */,
 				AFAA154329B948E100BFD492 /* ContentView.swift */,
 				AFAA154529B948E400BFD492 /* Assets.xcassets */,
