@@ -8,5 +8,11 @@
         <page name='booleans'/>
         <page name='arrays'/>
         <page name='dictionaries'/>
+        <page name='tuplas'/>
+        <page name='Enum'/>
+        <page name='RangeOperator'/>
+        <page name='switch'/>
+        <page name='forin'/>
+        <page name='while'/>
     </pages>
 </playground>
