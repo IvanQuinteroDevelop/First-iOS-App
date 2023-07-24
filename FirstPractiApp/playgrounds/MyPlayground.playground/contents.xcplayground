@@ -14,5 +14,8 @@
         <page name='switch'/>
         <page name='forin'/>
         <page name='while'/>
+        <page name='functions'/>
+        <page name='structs'/>
+        <page name='classes'/>
     </pages>
 </playground>
